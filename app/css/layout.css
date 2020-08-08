@@ -148,15 +148,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-/* @media (max-width: 600px) {
-  .skill__item::before {
-    color: rgb(255, 255, 255, 0.6);
-  }
-  .skill__item {
-    color: rgb(255, 255, 255, 0.6);
-  }
-} */
-
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(345px, 1fr));
