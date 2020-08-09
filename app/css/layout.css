@@ -23,11 +23,21 @@ body {
 }
 
 a,
-a:visited,
-a:hover {
+a:visited {
   text-decoration: none;
-  font-weight: 300;
+  font-weight: 500;
   color: rgba(255, 255, 255, 0.8);
+  transition: all 150ms ease-in-out;
+}
+a:hover {
+  color: #83b3ec;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #83b3ec;
+}
+
+h2 {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 0.5rem;
 }
 
 p {
