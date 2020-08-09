@@ -104,7 +104,7 @@ a:hover {
 
 @media (max-width: 600px) {
   #about {
-    margin: 0em 0.1em 0 0;
+    margin: 0em -2em 0 0em;
     width: 50px;
     height: 50px;
     border-radius: 25px;
