@@ -1,6 +1,6 @@
-# A portfolio website my **Godwin Ebikwo** showcasing his work.
+# A portfolio website my **GodwinEbikwo** showcasing his work.
 
-# Made using these technologies.
+Made using these technologies.
 
 - Html
 - CSS
