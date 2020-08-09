@@ -1,4 +1,4 @@
-# A portfolio website my **GodwinEbikwo** showcasing his work.
+# A folio my **Godwin Ebikwo** showcasing his work.
 
 Made using these technologies.
 
