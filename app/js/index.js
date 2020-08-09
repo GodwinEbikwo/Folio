@@ -29,7 +29,7 @@ headerTimeLine
     },
   })
   .from(heroP, {
-    delay: -0.4,
+    delay: -0.6,
     y: 32,
     opacity: 0,
     duration: 0.8,
