@@ -330,13 +330,14 @@ a:hover {
 }
 
 .projects-title h1 {
-  font-size: 4rem;
+  font-size: 3.2rem;
   color: rgba(255, 255, 255, 0.9);
+  font-family: "Regular";
 }
 
 .projects-title {
   margin: 0 0 0 6rem;
-  line-height: 0.5rem;
+  line-height: 1rem;
 }
 
 .projects-title::after {

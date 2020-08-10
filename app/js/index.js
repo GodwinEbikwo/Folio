@@ -66,7 +66,7 @@ projectsTimeLine
     opacity: 0,
     y: 32,
     skewX: 10,
-    duration: 1.5,
+    duration: 1,
     ease: "power3.out",
     stagger: {
       amount: 1,
