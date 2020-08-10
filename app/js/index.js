@@ -21,7 +21,6 @@ const headerTimeLine = gsap.timeline();
 
 headerTimeLine
   .from([banner, bannerTwo], {
-    skewX: 4,
     duration: 1.4,
     width: 0,
     ease: "power3.inOut",
