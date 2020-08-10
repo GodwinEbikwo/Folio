@@ -79,6 +79,6 @@ const scene = new ScrollMagic.Scene({
   triggerHook: 0,
   reverse: false,
 })
-  .addIndicators()
+  // .addIndicators()
   .setTween(projectsTimeLine)
   .addTo(controller);
