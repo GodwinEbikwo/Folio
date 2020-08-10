@@ -81,13 +81,13 @@ const projectsTimeLine = gsap.timeline();
 projectsTimeLine
   .from(pTitle, {
     opacity: 0,
-    delay: -0.6,
+    delay: -0.3,
     y: 16,
     duration: 0.8,
     ease: "power3.out",
   })
   .from(pList, {
-    delay: -0.4,
+    delay: -0.3,
     opacity: 0,
     y: 32,
     skewX: 15,

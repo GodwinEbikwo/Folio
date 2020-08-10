@@ -60,7 +60,7 @@ a:hover {
 
 #main {
   padding: 1em;
-  margin: 2rem auto;
+  margin: 1.5rem auto;
 }
 .banner-bg,
 .banner-bgTwo {
@@ -180,9 +180,9 @@ a:hover {
 
 .hero h1 {
   font-size: 4rem;
-  line-height: 4.85rem;
+  line-height: 5.5rem;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .hero h1 > span {
