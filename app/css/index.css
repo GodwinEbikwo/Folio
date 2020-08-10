@@ -377,6 +377,9 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  .projects-title h1 {
+    font-size: 1.8rem;
+  }
   .project-list-item__title {
     font-size: 1.3rem;
   }
