@@ -1,0 +1,124 @@
+/* --------------------section--------------------- */
+
+/* .grid {
+  max-width: 46rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  height: 10em;
+  text-align: center;
+  border: 0.5px solid rgb(109, 109, 109);
+  grid-template-areas:
+    "one one one five five"
+    "one one one five five"
+    "two two two five five"
+    "three three three five five"
+    "four four four five five"
+    "four four four five five";
+}
+.one,
+.two,
+.three,
+.four,
+.five {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  border-bottom: 0.5px solid rgb(109, 109, 109);
+  border-right: 0.5px solid rgb(109, 109, 109);
+  grid-area: one;
+}
+.two {
+  border-bottom: 0.5px solid rgb(109, 109, 109);
+  border-right: 0.5px solid rgb(109, 109, 109);
+  grid-area: two;
+}
+.three {
+  border-bottom: 0.5px solid rgb(109, 109, 109);
+  border-right: 0.5px solid rgb(109, 109, 109);
+  grid-area: three;
+}
+.four {
+  border-right: 0.5px solid rgb(109, 109, 109);
+  grid-area: four;
+}
+.five {
+  grid-area: five;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("https://source.unsplash.com/yuZvQH1Ol0M/1600x900");
+} */
+
+/* .portfolio {
+  height: 100px;
+}
+.work,
+.contact,
+.four {
+  height: 30px;
+} */
+
+@media (min-width: 600px) {
+  .card_parent {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: 1fr;
+    grid-gap: 1rem;
+    padding: 5%;
+  }
+}
+
+.card,
+.card1,
+.card2,
+.card3,
+.card4 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 1rem;
+  height: 20rem;
+  background-color: #eee;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card h2 {
+  color: rgba(255, 255, 255);
+  font-weight: 400;
+  background-color: tomato;
+  padding: 0.35rem 0.85rem;
+  border-radius: 3px;
+  font-size: 1.2rem;
+}
+
+.card1 {
+  background-image: url("https://res.cloudinary.com/dqv9mfbvt/image/upload/v1596974285/pixeltrue-web-design_ui9od6.svg");
+}
+
+.card2 {
+  background-image: url("https://res.cloudinary.com/dqv9mfbvt/image/upload/v1596973769/abstract-phone-purchases_ujecdw.png");
+}
+
+.card3 {
+  background-image: url("https://res.cloudinary.com/dqv9mfbvt/image/upload/v1596973555/pixeltrue-web-development_trzi15.svg");
+}
+
+.card4 {
+  background-image: url("https://res.cloudinary.com/dqv9mfbvt/image/upload/v1596971952/taxi-welcome-_1__ylfxnv.webp");
+}

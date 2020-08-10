@@ -19,6 +19,13 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/app/css/index.css" />
+
+    <!-- SCROLL REVEAL ANIMATIONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css"
+    />
+    <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
   </head>
   <body>
     <main id="main">
@@ -27,8 +34,8 @@
           <nav class="nav">
             <div class="logo_wrap">
               <a href="/" id="nav_h"> Godwin <span>- EDITION 2020</span> </a>
-              <a id="about" href="/app/about.html" id="nav_a"
-                ><span>ABOUT</span></a
+              <a id="about" href="/app/about.html"
+                ><span id="nav_a">ABOUT</span></a
               >
             </div>
           </nav>
@@ -49,7 +56,7 @@
 
           <div class="line">
             <span class="hero_title">
-              websites and mobile apps.
+              websites & mobile apps.
             </span>
           </div>
         </h1>
@@ -76,37 +83,60 @@
         </div>
       </section>
 
-      <section>
-        <div class="card_parent">
-          <div class="card card1">
-            <h2>Folio</h2>
-          </div>
+      <section class="projects-section">
+        <div class="projects-title wow fadeInUp" data-wow-delay="1s">
+          <h1>Projects</h1>
+        </div>
 
-          <div class="card card2">
-            <h2>Grid layout</h2>
-          </div>
+        <div class="grid-container">
+          <ol class="project-list">
+            <li class="project-list-item wow fadeInUp" data-wow-delay="1.2s">
+              <a href="#" class="project-list-item__link">
+                <div class="project-list-item__title">
+                  <div>Auth Using Typescript React Native</div>
+                </div>
+              </a>
+              <span class="project-list-item__subtitle"> </span>
+            </li>
 
-          <div class="card card3">
-            <h2>Auth Starter kit</h2>
-          </div>
+            <li class="project-list-item wow fadeInUp" data-wow-delay="1.3s">
+              <a href="" class="project-list-item__link">
+                <div class="project-list-item__title">
+                  <div>BEIU Mobile Application React Native</div>
+                </div>
+              </a>
+              <span class="project-list-item__subtitle"> </span>
+            </li>
 
-          <div class="card card4">
-            <h2>React movie api application</h2>
-          </div>
+            <li class="project-list-item wow fadeInUp" data-wow-delay="1.4s">
+              <a href="" class="project-list-item__link">
+                <div class="project-list-item__title">
+                  <div>Portfolio Template Using React</div>
+                </div>
+              </a>
+              <span class="project-list-item__subtitle"> </span>
+            </li>
+
+            <li class="project-list-item wow fadeInUp" data-wow-delay="1.5s">
+              <a href="" class="project-list-item__link">
+                <div class="project-list-item__title">
+                  <div>Firebase Form Using React Native</div>
+                </div>
+              </a>
+              <span class="project-list-item__subtitle"> </span>
+            </li>
+
+            <li class="project-list-item wow fadeInUp" data-wow-delay="1.6s">
+              <a href="" class="project-list-item__link">
+                <div class="project-list-item__title">
+                  <div>A Quiz App Using React & Typescript</div>
+                </div>
+              </a>
+              <span class="project-list-item__subtitle"> </span>
+            </li>
+          </ol>
         </div>
       </section>
-
-      <!-- <section class="grid">
-        <div class="parent">
-          <div class="one"><div class="portfolio">Portfolio</div></div>
-          <div class="two">
-            <div class="work">Work</div>
-          </div>
-          <div class="three"><div class="contact">Contact</div></div>
-          <div class="four"><div class="four">Four</div></div>
-          <div class="five">Five</div>
-        </div>
-      </section> -->
     </main>
     <footer class="footer">
       <div id="footer__left">
@@ -133,6 +163,10 @@
         </span>
       </div>
     </footer>
+
+    <!-- <script>
+      new WOW().init();
+    </script> -->
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
