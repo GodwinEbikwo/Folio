@@ -1,3 +1,7 @@
+//banner
+const banner = document.querySelector(".banner-bg");
+const bannerTwo = document.querySelector(".banner-bgTwo");
+
 //header
 const nav = document.querySelector(".nav");
 
@@ -16,6 +20,18 @@ const pList = document.querySelectorAll(".project-list li");
 const headerTimeLine = gsap.timeline();
 
 headerTimeLine
+  .from([banner, bannerTwo], {
+    skewX: 4,
+    duration: 1.4,
+    width: 0,
+    ease: "power3.inOut",
+    stagger: {
+      amount: 0.2,
+    },
+  })
+  .to([banner, bannerTwo], {
+    opacity: 0,
+  })
   .from(nav, {
     y: 32,
     opacity: 0,
@@ -38,19 +54,29 @@ headerTimeLine
     opacity: 0,
     duration: 0.8,
     ease: "power3.out",
+  })
+  .from(sOne, {
+    delay: -0.7,
+    y: 32,
+    duration: 0.8,
+    opacity: 0,
+    ease: "power3.easeOut",
+    stagger: {
+      amount: 0.1,
+    },
   });
 
-const cardTimeLine = gsap.timeline();
-cardTimeLine.from(sOne, {
-  delay: 1,
-  y: 32,
-  duration: 0.8,
-  opacity: 0,
-  ease: "power3.easeOut",
-  stagger: {
-    amount: 0.2,
-  },
-});
+// const cardTimeLine = gsap.timeline();
+// cardTimeLine.from(sOne, {
+//   delay: 1,
+//   y: 32,
+//   duration: 0.8,
+//   opacity: 0,
+//   ease: "power3.easeOut",
+//   stagger: {
+//     amount: 0.2,
+//   },
+// });
 
 const projectsTimeLine = gsap.timeline();
 projectsTimeLine
@@ -65,11 +91,11 @@ projectsTimeLine
     delay: -0.4,
     opacity: 0,
     y: 32,
-    skewX: 10,
-    duration: 1,
+    skewX: 15,
+    duration: 0.9,
     ease: "power3.out",
     stagger: {
-      amount: 1,
+      amount: 0.6,
     },
   });
 

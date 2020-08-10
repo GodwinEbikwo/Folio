@@ -29,10 +29,11 @@ a:visited {
   color: rgba(255, 255, 255, 0.8);
   transition: all 150ms ease-in-out;
 }
+
 a:hover {
   color: #83b3ec;
-  padding: 0.5rem 0.75rem;
-  border: 1px solid #83b3ec;
+  /* padding: 0.5rem 0.75rem; */
+  /* border: 1px solid #83b3ec; */
 }
 
 h2 {
