@@ -9,7 +9,7 @@ const heroP = document.querySelectorAll(".available");
 const sOne = document.querySelectorAll(".section__card");
 
 //projects
-const pTitle = document.querySelector(".projects-title h1");
+const pTitle = document.querySelector(".projects-title");
 const pList = document.querySelectorAll(".project-list li");
 
 // timeline
