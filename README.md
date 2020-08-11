@@ -1,6 +1,6 @@
 # A folio my **Godwin Ebikwo** showcasing his work.
 
-Made using these technologies. Insipred by Andreas Antonsson
+Made using these technologies. Inspired by Andreas Antonsson
 
 - Html
 - CSS
