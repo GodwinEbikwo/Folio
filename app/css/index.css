@@ -184,10 +184,10 @@ a:hover {
 
 @media (max-width: 768px) {
   .hero {
-    padding: 1rem 3rem 1.5rem 3rem;
+    padding: 1rem 1.75rem 1.5rem 1.25rem;
   }
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     line-height: 3.5rem;
   }
 }
@@ -232,6 +232,12 @@ a:hover {
     column-gap: 10px;
     row-gap: 10px;
     padding: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .sectionOne {
+    padding: 2%;
   }
 }
 
