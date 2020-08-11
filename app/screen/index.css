@@ -279,7 +279,7 @@ section {
 .cta h4 {
   font-size: 2.5rem !important;
   font-weight: 300;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.6);
 }
 .cta a {
   font-size: 4rem !important;
@@ -329,7 +329,6 @@ section {
   color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   font-size: 1.35rem !important;
-  font-family: "Lato", sans-serif;
   letter-spacing: -0.8px;
   font-weight: 700;
   cursor: pointer;
@@ -342,8 +341,7 @@ section {
   margin: 1em 2rem 0 0rem;
 }
 
-.home-button,
-.home-button-two:hover {
+.home-button:hover {
   background-color: #83b3ec;
   color: #000;
 }
