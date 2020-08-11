@@ -184,7 +184,7 @@ a:hover {
 
 @media (max-width: 768px) {
   .hero {
-    padding: 1rem 1.75rem 1.5rem 1.25rem;
+    padding: 1rem 0 1.5rem 1.75rem;
   }
   .hero h1 {
     font-size: 2rem;
@@ -238,6 +238,9 @@ a:hover {
 @media (max-width: 768px) {
   .sectionOne {
     padding: 2%;
+    /* border: 1px solid red; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
 }
 
@@ -310,10 +313,12 @@ a:hover {
 }
 @media (max-width: 1024px) {
   .grid-container {
-    padding-right: 0.25rem;
-    padding-left: 0.25rem;
+    padding-right: 2.15rem;
+    padding-left: 2.15rem;
   }
   .projects-title {
+    padding-right: 1.8rem;
+    padding-left: 1.8rem;
     margin: 3rem 0 0 0.25rem;
     line-height: 0.5rem;
   }
@@ -329,6 +334,16 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  .grid-container {
+    padding-right: 0.25rem;
+    padding-left: 0.25rem;
+  }
+  .projects-title {
+    padding-right: unset;
+    padding-left: unset;
+    margin: 3rem 0 0 0.25rem;
+    line-height: 0.5rem;
+  }
   .projects-title h1 {
     font-size: 1.8rem;
   }
