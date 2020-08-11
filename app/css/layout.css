@@ -34,8 +34,6 @@ a:visited {
 
 a:hover {
   color: #83b3ec;
-  /* padding: 0.5rem 0.75rem; */
-  /* border: 1px solid #83b3ec; */
 }
 
 h2 {
@@ -65,14 +63,14 @@ img {
 .headingXl {
   font-size: 3rem;
   line-height: 1.3;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -0.05rem;
   margin: 1rem 0;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 #pSpan {
-  color: #5ce74f;
+  color: #7ed676;
   font-weight: 600;
 }
 
@@ -125,8 +123,8 @@ img {
 }
 
 .tech p {
-  font-size: 1.3rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -156,7 +154,7 @@ img {
   margin-bottom: 10px;
   padding-left: 20px;
   display: list-item;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   color: rgba(255, 255, 255, 0.6);
 }
