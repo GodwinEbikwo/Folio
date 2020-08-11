@@ -229,7 +229,8 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
     grid-template-rows: 1fr;
-    grid-gap: 1rem;
+    column-gap: 10px;
+    row-gap: 10px;
     padding: 5%;
   }
 }
@@ -254,7 +255,8 @@ a:hover {
 @media (max-width: 1024px) {
   .section__card,
   .section__card2 {
-    height: 15rem;
+    /* background-color: #2c2c2e; */
+    height: 13rem;
   }
   #one {
     width: 20rem;
