@@ -237,7 +237,7 @@ section {
   right: 0;
   bottom: 0;
   z-index: -1;
-  background-color: rgb(34, 33, 33);
+  background-color: rgb(17, 123, 194);
 
   transition: all 0.2s cubic-bezier(1, 0.68, 0.16, 0.9);
   transform: scaleX(0);
@@ -256,7 +256,7 @@ section {
 
 .button.button-background-slide:hover,
 .button.button-background-slide:focus {
-  color: rgb(219, 217, 217);
+  color: rgb(255, 255, 255);
 }
 
 /* -------------cta-------------- */
